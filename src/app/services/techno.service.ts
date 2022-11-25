@@ -8,7 +8,7 @@ export class TechnoService {
   technos: Techno[] = [
     {
       id: 1,
-      icon: 'https://cdn.icon-icons.com/icons2/2699/PNG/512/angular_logo_icon_169595.png',
+      icon: 'https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/21_Angular_logo_logos-512.png',
       title: 'Angular',
       skillId: 1,
     },
