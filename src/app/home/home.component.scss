@@ -1,0 +1,17 @@
+p{
+    font-family : Arial, Helvetica, sans-serif;
+}
+#container{
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+
+    height: 300PX;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 100px 50px;
+}
