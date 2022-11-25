@@ -2,3 +2,16 @@ img{
     height: 70px;
     width: 80px;
 }
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #392460;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}

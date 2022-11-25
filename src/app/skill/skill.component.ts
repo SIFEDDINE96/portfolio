@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Skill } from '../models/skill.model';
 import { Techno } from '../models/techno.model';
-import { TechnoService } from '../services/techno.service';
+import {SkillService} from "../services/skill.service";
 
 @Component({
   selector: 'app-skill',
@@ -13,10 +13,10 @@ export class SkillComponent implements OnInit {
 
   technos!: Techno[];
 
-  constructor(private technoService: TechnoService) { }
+  constructor(private skillService: SkillService) { }
 
   ngOnInit(): void {
-    this.technos = this.technoService.getAllTechnos();
+    this.technos = this.skillService.getTechnosBySkillId(this.skill.id);
   }
 
 }
