@@ -1,8 +1,5 @@
-p{
-    font-family : Arial, Helvetica, sans-serif;
-}
-#container{
-    margin: 50px 100px;
+#container1{
+    margin: 20px 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -14,4 +11,22 @@ img{
     width: 200px;
     margin-top: 10px;
     border-radius: 100px 50px;
+}
+#container2{
+  background-color: #43345e;
+  color: white;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+#container3{
+  background-color: #392460;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  min-width:200px;
 }

@@ -1,11 +1,11 @@
 img{
     height: 70px;
     width: 80px;
+    margin-bottom: 20px;
 }
 #container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 
   background-color: #392460;
@@ -14,4 +14,5 @@ img{
   margin-left: 20px;
   padding: 10px;
   border-radius: 5px;
+  min-width:200px;
 }

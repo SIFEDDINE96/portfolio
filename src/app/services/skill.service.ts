@@ -42,7 +42,7 @@ export class SkillService {
     },
     {
       id: 2,
-      icon: 'https://cdn-icons-png.flaticon.com/512/919/919851.png',
+      icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png',
       title: 'React',
       skillId: 1,
     },
@@ -60,14 +60,14 @@ export class SkillService {
     },
     {
       id: 5,
-      icon: 'https://miro.medium.com/max/1400/1*j7zQS3KZnvwcXavdyrIffg.png',
-      title: 'Spring Boot',
+      icon: 'https://liveit-media.imgix.net/media/event/my-first-event-1461/logo-spvnih.png?ixlib=python-2.3.0&w=600',
+      title: 'Spring',
       skillId: 3,
     },
     {
       id: 6,
-      icon: 'https://cdn-icons-png.flaticon.com/512/919/919825.png',
-      title: 'Node',
+      icon: 'https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png',
+      title: 'Node JS',
       skillId: 3,
     },
     {
@@ -78,7 +78,7 @@ export class SkillService {
     },
     {
       id: 8,
-      icon: 'https://e7.pngegg.com/pngimages/173/36/png-clipart-postgresql-logo-computer-software-database-open-source-s-text-head.png',
+      icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968342.png',
       title: 'PostreSQL',
       skillId: 4,
     },

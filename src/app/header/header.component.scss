@@ -5,34 +5,36 @@ header {
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 5px;
-  
+
 }
 a {
   margin: 0 10px;
+  padding: 0 20px;
   background-color: #43345e;
   border-radius: 50px 20px;
   display: inline-block;
   height: 30px;
-  width: 80px;
+  //min-width: 80px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family : Arial, Helvetica, sans-serif;
- 
+
+
 
   color: white;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
     background-color: #6b5695;
+
   }
 }
 
 .active {
 
   text-decoration: underline;
-  
+
 }
 
 /********************* My own Styling ********************/
@@ -41,22 +43,20 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
 }
-#container2{
+nav{
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  // align-items: center;
+
 }
 
-// .element:nth-child(2)
-// {
-//   // background-color: orange;
-//   // align-self: flex-end;
-//   // flex: 1;
-// }
+
 h1{
+   //font-family: 'Great Vibes', cursive;
    font-style: italic;
+   font-size: 50px;
 }
